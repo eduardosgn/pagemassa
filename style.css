@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(90, 90, 90);
+}
+section{
+    padding: 3rem 0 4rem 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.logo img{
+    width: 150px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button.button{
+    margin-left: 10px;
+    border: none;
+}
+h1{
+    font-size: 3rem;
+    font-weight: normal;
+}
+.gray{
+    background-color: rgb(219, 219, 219);
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.hero{
+    width: 60%;
+    margin: auto;
+}
+.button{
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+}
+.button:hover{
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+}
+.primary{
+    background-color: #3396F2;
+    color: white;
+}
+.secondary{
+    background-color: #fff;
+    color: #444;
+}
+.intro .cta{
+    margin-top: 40px;
+}
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+h1.title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 18%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.card.red{
+    background-color: #ec454e;
+}
+.card.blue{
+    background-color: #42b8f8;
+}
+.card.purple{
+    background-color: #9e69d5;
+}
+.card.yellow{
+    background-color: #f4a823;
+}
+.card.green{
+    background-color: #3cbf41;
+}
+.members{
+    display: flex;
+    justify-content: space-evenly;
+}
+.member img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+footer{
+    background-color: #3788bf;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style: none;
+    padding-top: 3rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer p.copyright{
+    color: #ffffffcc;
+    text-align: center;
+    padding: 3rem 0;
+}
